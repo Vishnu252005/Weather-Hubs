@@ -172,3 +172,29 @@ h1 {
     font-size: 1.35rem;
   }
 }
+.created-by {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #5372F0;
+  color: #fff;
+}
+
+.created-by p {
+  margin: 0;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.created-by a {
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.created-by img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
